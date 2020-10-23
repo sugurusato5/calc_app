@@ -8,15 +8,6 @@
 </head>
 <body>
     <h1>計算アプリ</h1>
-    <?php if ($operator == 'addition') : ?>
-        <h2>{{$addition}}</h2>
-    <?php elseif ($operator == 'subtraction') : ?>
-        <h2>{{$subtraction}}</h2>
-    <?php elseif ($operator == 'multiplication') : ?>
-        <h2>{{$multiplication}}</h2>
-    <?php elseif ($operator == 'division') : ?>
-        <h2>{{$division}}</h2>
-    <?php endif; ?>
-    
+    <h2>{{$answer}}</h2>
 </body>
 </html>
